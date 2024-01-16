@@ -1,0 +1,49 @@
+.flex-both-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+.flex-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-space-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+}
+.list-style-none li{
+    list-style: none;
+}
+.list-style-none li a{
+    text-decoration: none;
+    color: black;
+}
+.red{
+    color: #FC5D6D;
+}
+.yellow{
+    color: #F8CB46;
+}
+.grey{
+    color: grey;
+}
+.fade-border{
+    box-shadow: 3px 1px 43px -8px #F8CB46;
+}
+.text-deco-none{
+    text-decoration: none;
+    color:black;
+}
