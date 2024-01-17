@@ -134,14 +134,16 @@
         background-position: center;
     }
     #login-container2{
-        width: 400px;
-        min-width: 350px;
-        height: 55vh;
+        width: 100vw;
+        height: 100vh;
         min-width: 0;
         background-color: rgba(255,255,255,0.7);
     }
     #login-container2 #login-img{
         display: none;
+    }
+    #forms #login-register{
+        top: 200px;
     }
 }
 /*----------------------REGISTER PAGE----------------------*/
