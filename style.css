@@ -841,7 +841,7 @@
     justify-content: center;
     align-items: center;
 }
-@media(min-width: 1025px){
+@media(hover: hover){
     .PC-box2:hover {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
