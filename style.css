@@ -899,16 +899,16 @@
     }
     .PC-box2
     {
-        height: 280px;
+        height: 300px;
         margin: 0px 0px 10px 0px;
     }
     .PC-box2 .PC-img
     {
-        height: 200px;
+        height: 220px;
     }
     .PC-box2 .PC-img img
     {
-        height: 200px;
+        height: 100%;
     }
     .PC-box2 .PC-about
     {
