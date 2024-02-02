@@ -5,374 +5,689 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body class="homepage-body">
-    <header class="homepage-header">
-        <div class="logo flex-both-centre">
-            <a href="homePage.html"><img src="images/dynamic-removebg-preview.png" alt="logo" class="logo"></a>
-        </div>
-        <div class="wearOptions-container men">
-            <ul>
-                <li><a href="#">MEN</a>
-                    <div class="wearOptions-subcontainer">
-                        <ul>
-                            <li><a href="#">Formal</a></li>
-                            <li><a href="#">Ethnic</a></li>
-                            <li><a href="#">Casual</a></li>
-                            <li><a href="#">Sports</a></li>
-                            <li><a href="#">Inner wear</a></li>
-                        </ul>
+<body>
+    <header>
+        <div id="homepage-header" class="flex-both-center">
+            <div id="header-container" class="flex-space-evenly">
+                <div id="logo" class="flex-both-center">
+                    <i class='bx bx-menu' id="menu"></i>
+                    <a href="homePage.html" class="text-deco-none"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div id="slider-container">
+                </div>
+                <div id="slider">
+                    
+                </div>
+                <div id="wearOptions-container">
+                    <ul>
+                        <li><a href="javascript:void(0);" class="flex-both-center">MEN</a>
+                            <div class="wearOptions-subcontainer flex-both-center">
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Topwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">T-Shirt</a></li>
+                                        <li><a href="javascript:void(0);">Casual Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Formal Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Sweatshirts</a></li>
+                                        <li><a href="javascript:void(0);">Sweaters</a></li>
+                                        <li><a href="javascript:void(0);">Jackets</a></li>
+                                        <li><a href="javascript:void(0);">Blazers & coats</a></li>
+                                        <li><a href="javascript:void(0);">Suits</a></li>
+                                        <li><a href="javascript:void(0);">Rain Jackets</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Sports & Active wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Sprots Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Sports Sandals</a></li>
+                                        <li><a href="javascript:void(0);">Track Pants</a></li>
+                                        <li><a href="javascript:void(0);">Active T-Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Tracksuits</a></li>
+                                        <li><a href="javascript:void(0);">Jackets & Sweatshirts</a></li>
+                                        <li><a href="javascript:void(0);">Sports Accessories</a></li>
+                                        <li><a href="javascript:void(0);">Swimwear</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Bottomwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Jeans</a></li>
+                                        <li><a href="javascript:void(0);">Casual Trousers</a></li>
+                                        <li><a href="javascript:void(0);">Formal Trousers</a></li>
+                                        <li><a href="javascript:void(0);">Shorts</a></li>
+                                        <li><a href="javascript:void(0);">Track Pants & Joggers</a></li>
+                                    </ul>
+                                    <HR>
+                                    <h4 class="color2">Gadgets</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Smart Wearablesh</a></li>
+                                        <li><a href="javascript:void(0);">Fitness Gadgets</a></li>
+                                        <li><a href="javascript:void(0);">Headphones</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Ethenic wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Kurtas & Kurta Sets</a></li>
+                                        <li><a href="javascript:void(0);">Sherwanis</a></li>
+                                        <li><a href="javascript:void(0);">Nehru Jackets</a></li>
+                                        <li><a href="javascript:void(0);">Dhotis</a></li>
+                                    </ul>
+                                    <HR>
+                                    <h4  class="color2">Fashion Accessories</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Wallets</a></li>
+                                        <li><a href="javascript:void(0);">Belts</a></li>
+                                        <li><a href="javascript:void(0);">Perfumes & Body Mists</a></li>
+                                        <li><a href="javascript:void(0);">Trimmers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Innerwear & Sleepwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Briefs & Trunks</a></li>
+                                        <li><a href="javascript:void(0);">Boxers</a></li>
+                                        <li><a href="javascript:void(0);">Vests</a></li>
+                                        <li><a href="javascript:void(0);">Sleepwear</a></li>
+                                        <li><a href="javascript:void(0);">Thermals</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="flex-both-center">WOMEN</a>
+                            <div class="wearOptions-subcontainer">
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Western Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Dresses</a></li>
+                                        <li><a href="javascript:void(0);">Tops</a></li>
+                                        <li><a href="javascript:void(0);">T-Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Jeans</a></li>
+                                        <li><a href="javascript:void(0);">Trousers & Capris</a></li>
+                                        <li><a href="javascript:void(0);">Shorts & Skirts</a></li>
+                                        <li><a href="javascript:void(0);">jumpsuits</a></li>
+                                        <li><a href="javascript:void(0);">Co-ords</a></li>
+                                        <li><a href="javascript:void(0);">Shrugs</a></li>
+                                        <li><a href="javascript:void(0);">Playsuits</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Footwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Flats</a></li>
+                                        <li><a href="javascript:void(0);">Casual Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Heels</a></li>
+                                        <li><a href="javascript:void(0);">Boots</a></li>
+                                        <li><a href="javascript:void(0);">Sports Shoes</a></li>
+                                    </ul>
+                                    <hr>
+                                    <h4 class="color2">Sports & Active Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Clothing</a></li>
+                                        <li><a href="javascript:void(0);">Sports Accessories</a></li>
+                                        <li><a href="javascript:void(0);">Sports Equipment</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Personal Care</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Makeup</a></li>
+                                        <li><a href="javascript:void(0);">Skincare</a></li>
+                                        <li><a href="javascript:void(0);">Permium Beauty</a></li>
+                                        <li><a href="javascript:void(0);">Lipsticks</a></li>
+                                        <li><a href="javascript:void(0);">Fragrances</a></li>
+                                        <li><a href="javascript:void(0);">Face Wash</a></li>
+                                        <li><a href="javascript:void(0);">Sunscreen</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Ethenic wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Kurtas & Suits</a></li>
+                                        <li><a href="javascript:void(0);">Kurtis& Tops</a></li>
+                                        <li><a href="javascript:void(0);">Sarees</a></li>
+                                        <li><a href="javascript:void(0);">Ethnic Wear</a></li>
+                                        <li><a href="javascript:void(0);">Leggings & Salwars</a></li>
+                                        <li><a href="javascript:void(0);">Skirts & Palazzos</a></li>
+                                        <li><a href="javascript:void(0);">Dress Materials</a></li>
+                                        <li><a href="javascript:void(0);">Lehenga Cholis</a></li>
+                                        <li><a href="javascript:void(0);">Jackets</a></li>
+                                        <li><a href="javascript:void(0);">Dupattas & Shawls</a></li>
+                                    </ul>
+                                </div>
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Innerwear & Sleepwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Bra</a></li>
+                                        <li><a href="javascript:void(0);">Briefs</a></li>
+                                        <li><a href="javascript:void(0);">Camisoles & Thermals</a></li>
+                                        <li><a href="javascript:void(0);">Shapewear</a></li>
+                                        <li><a href="javascript:void(0);">Swimwears</a></li>
+                                    </ul>
+                                    <HR>
+                                    <h4 class="color2">Jewellery</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Fashion Jewellery</a></li>
+                                        <li><a href="javascript:void(0);">Fine Jewellery</a></li>
+                                        <li><a href="javascript:void(0);">Earrings</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="flex-both-center">BOYS</a>
+                            <div class="wearOptions-subcontainer">
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Top Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">T-Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Tanks</a></li>
+                                        <li><a href="javascript:void(0);">Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Sweaters</a></li>
+                                        <li><a href="javascript:void(0);">Hoodies & Sweatshirts</a></li>
+                                    </ul>
+                                    <hr>
+                                    <h4 class="color2">Outer Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Jackets & Coats</a></li>
+                                        <li><a href="javascript:void(0);">Light Jackets & Vests</a></li>
+                                        <li><a href="javascript:void(0);">Snowsuits</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Sets</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Active Sets</a></li>
+                                        <li><a href="javascript:void(0);">Pant Sets</a></li>
+                                        <li><a href="javascript:void(0);">Short Sets</a></li>
+                                    </ul>
+                                    <hr>
+                                    <h4 class="color2">Dress Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Blazers & Vests</a></li>
+                                        <li><a href="javascript:void(0);">Dress Pants</a></li>
+                                        <li><a href="javascript:void(0);">Dress Pants Sets</a></li>
+                                        <li><a href="javascript:void(0);">Dress Shirts</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Bottoms</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Jeans</a></li>
+                                        <li><a href="javascript:void(0);">Pants</a></li>
+                                        <li><a href="javascript:void(0);">Shorts</a></li>
+                                        <li><a href="javascript:void(0);">Sweatpants</a></li>
+                                    </ul>
+                                    <hr>
+                                    <ul>
+                                        <h4 class="color2">Sleepwear</h4>
+                                        <li><a href="javascript:void(0);">Pajamas</a></li>
+                                        <li><a href="javascript:void(0);">Robes</a></li>
+                                        <li><a href="javascript:void(0);">Blanket Sleeper</a></li>
+                                        <li><a href="javascript:void(0);">Thermals</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Footwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Casual Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Flats</a></li>
+                                        <li><a href="javascript:void(0);">Sports Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Flipflops</a></li>
+                                        <li><a href="javascript:void(0);">Sandals</a></li>
+                                        <li><a href="javascript:void(0);">Heels</a></li>
+                                        <li><a href="javascript:void(0);">School Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Socks</a></li>
+                                    </ul>
+                                </div>
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Toys & Games</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Learning</a></li>
+                                        <li><a href="javascript:void(0);">Activity</a></li>
+                                        <li><a href="javascript:void(0);">Soft Toys</a></li>
+                                        <li><a href="javascript:void(0);">Action Figure</a></li>
+                                    </ul>
+                                    <HR>
+                                    <h4 class="color2">Kids Accessories</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Bags & Backpacks</a></li>
+                                        <li><a href="javascript:void(0);">Watches</a></li>
+                                        <li><a href="javascript:void(0);">Sunglasses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="flex-both-center">GIRLS</a>
+                            <div class="wearOptions-subcontainer">
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Top Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">T-Shirts</a></li>
+                                        <li><a href="javascript:void(0);">Tanks</a></li>
+                                        <li><a href="javascript:void(0);">Fashion Tops</a></li>
+                                        <li><a href="javascript:void(0);">Sweaters & Shrugs</a></li>
+                                        <li><a href="javascript:void(0);">Hoodies & Sweatshirts</a></li>
+                                    </ul>
+                                    <hr>
+                                    <h4 class="color2">Outer Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Jackets & Coats</a></li>
+                                        <li><a href="javascript:void(0);">Light Jackets & Vests</a></li>
+                                        <li><a href="javascript:void(0);">Snowsuits</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Sets</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Active Sets</a></li>
+                                        <li><a href="javascript:void(0);">Pant Sets</a></li>
+                                        <li><a href="javascript:void(0);">Short Sets</a></li>
+                                        <li><a href="javascript:void(0);">Skirt Sets</a></li>
+                                    </ul>
+                                    <hr>
+                                    <h4 class="color2">Dance Wear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Leotard</a></li>
+                                        <li><a href="javascript:void(0);">Skirt</a></li>
+                                        <li><a href="javascript:void(0);">Dance Tight</a></li>
+                                        <li><a href="javascript:void(0);">Dance Shoes</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Bottoms</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Jeans</a></li>
+                                        <li><a href="javascript:void(0);">Leggings</a></li>
+                                        <li><a href="javascript:void(0);">Pants</a></li>
+                                        <li><a href="javascript:void(0);">Skirt</a></li>
+                                    </ul>
+                                    <hr>
+                                    <ul>
+                                        <h4 class="color2">Sleepwear</h4>
+                                        <li><a href="javascript:void(0);">Gowns</a></li>
+                                        <li><a href="javascript:void(0);">Pajamas</a></li>
+                                        <li><a href="javascript:void(0);">Blanket Sleeper</a></li>
+                                        <li><a href="javascript:void(0);">Thermals</a></li>
+                                    </ul>
+                                </div> 
+                                <div class="subcontainer-box bg-color3">
+                                    <h4 class="color2">Footwear</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Casual Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Flats</a></li>
+                                        <li><a href="javascript:void(0);">Sports Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Flipflops</a></li>
+                                        <li><a href="javascript:void(0);">Sandals</a></li>
+                                        <li><a href="javascript:void(0);">Heels</a></li>
+                                        <li><a href="javascript:void(0);">School Shoes</a></li>
+                                        <li><a href="javascript:void(0);">Socks</a></li>
+                                    </ul>
+                                </div>
+                                <div class="subcontainer-box">
+                                    <h4 class="color2">Toys & Games</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Learning</a></li>
+                                        <li><a href="javascript:void(0);">Activity</a></li>
+                                        <li><a href="javascript:void(0);">Soft Toys</a></li>
+                                        <li><a href="javascript:void(0);">Action Figure</a></li>
+                                    </ul>
+                                    <HR>
+                                    <h4 class="color2">Kids Accessories</h4>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Bags & Backpacks</a></li>
+                                        <li><a href="javascript:void(0);">Watches</a></li>
+                                        <li><a href="javascript:void(0);">Sunglasses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="searchbar" class="flex-both-center">
+                    <input type="text" placeholder="Search for products, brands and more...">
+                    <i class="bx bx-search flex-both-center"></i>
+                </div>
+                <div id="popup-searchbar-container" class="flex-space-between">
+                    <i class='bx bx-arrow-back' id="backarrow"></i>
+                    <input type="text" name="text" id="popup" placeholder="Search for products, brands and more...">
+                </div>
+                <div id="profile-wishlist-bag" class="flex-space-evenly">
+                    <div id="search-icon">
+                        <i class="bx bx-search flex-both-center"></i>
                     </div>
-                </li>
-                <li><a href="#">WOMEN</a>
-                <div class="wearOptions-subcontainer">
-                        <ul>
-                            <li><a href="#">Formal</a></li>
-                            <li><a href="#">Ethnic</a></li>
-                            <li><a href="#">Casual</a></li>
-                            <li><a href="#">Sports</a></li>
-                            <li><a href="#">Inner wear</a></li>
-                        </ul>
-                    </div></li>
-                <li><a href="#">BOYS</a>
-                <div class="wearOptions-subcontainer">
-                        <ul>
-                            <li><a href="#">Formal</a></li>
-                            <li><a href="#">Ethnic</a></li>
-                            <li><a href="#">Casual</a></li>
-                            <li><a href="#">Sports</a></li>
-                            <li><a href="#">Inner wear</a></li>
-                        </ul>
-                    </div></li>
-                <li><a href="#">GIRLS</a>
-                <div class="wearOptions-subcontainer">
-                        <ul>
-                            <li><a href="#">Formal</a></li>
-                            <li><a href="#">Ethnic</a></li>
-                            <li><a href="#">Casual</a></li>
-                            <li><a href="#">Sports</a></li>
-                            <li><a href="#">Inner wear</a></li>
-                        </ul>
-                    </div></li>
-            </ul>
-        </div>
-        <div class="searchbar flex-both-centre">
-            <input type="text" placeholder="Search for products, brands and more">
-            <i class="bx bx-search"></i>
-        </div>
-        <div class="profile-wishlist-bag">
-            <div class="textcentre">
-                <a href="#">
-                    <i class='bx bxs-user'></i>
-                    <p>Profile</p>
-                </a>
-            </div>
-            <div class="textcentre">
-                <a href="wishlistCollection.html">
-                    <i class='bx bx-heart' ></i>
-                    <p>wishlist</p>
-                </a>
-            </div>
-            <div class="textcentre">
-                <a href="#">
-                    <i class='bx bx-shopping-bag' ></i>
-                    <p>Bag</p>
-                </a>
+                    <div id="profile">
+                        <a href="#">
+                            <i class='bx bxs-user'></i>
+                            <p>Profile</p>
+                        </a>
+                    </div>
+                    <div id="wishlist">
+                        <a href="wishlistCollection.html">
+                            <i class='bx bx-heart' ></i>
+                            <p>wishlist</p>
+                        </a>
+                    </div>
+                    <div id="bag">
+                        <a href="#">
+                            <i class='bx bx-shopping-bag' ></i>
+                            <p>Bag</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    <main class="homepage-main">
-        <div class="sale-banner">
-            <div class="img1">
-                <img src="images/sale-banner2.png" alt="sale banner">
+    <main>
+        <div id="main-container">
+
+            <!-- Sale banner -->
+            <div class="sale-banner">
+                <img src="images/sale-banner2.png" alt="sale banner" id="img1">
             </div>
-            <div class="img2">
-                <img src="images/sale-banner3.jpg" alt="sale banner">
-            </div>
-        </div>
-        <div class="categorySpecials flex-both-centre">
-                <p>CATEGORY SPECIALS</p>
-                <p id="small">Special Collection New Morden Design</p>
-        </div>
-        <div id="product-container" class="flex-both-centre">
-            <div class="products">
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/ethenic-women-wear.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/ethinic-men-wear.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="sale-banner4">
-            <img src="images/sale-banner4.png" alt="sale banner">
-        </div>
-        <div class="categorySpecials flex-both-centre">
-                <p>NEW ARRIVALS</p>
-                <p id="small">Special Collection New Morden Design</p>
-        </div>
-        <div id="product-container" class="flex-both-centre">
-            <div class="products">
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="productsCollection.html">
-                    <div class="productbox">
-                        <div class="productimg">
-                            <img src="images/tshirt.png" alt="Ethnic wear men">
-                        </div>
-                        <div class="aboutproduct">
-                            <p class="productname">Ethnic wear mens</p>
-                            <p><b>50-80% Off</b></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="HO-bannersCollection">
-            <div class="first-bannerCollection">
-                <div id="banner1" class="banners">
-                    <img src="images/banner1.png" alt="banner1">
-                    <button id="banner1-btn" class="banners-btn"><p>SHOP NOW</p></button>
+
+            <!-- categorySpecials -->
+            <div id="category-specials" class="flex-both-center">
+                <div class="div-name">
+                    <h1 class="color1">CATEGORY SPECIALS</h1>
+                    <h5 class="color2">Special Collection New Morden Design<h5>
                 </div>
-                <div id="banner2" class="banners">
-                    <img src="images/banner2.png" alt="banner2">
-                    <button id="banner2-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                <div class="cs-products-container">
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>60-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>60-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="productsCollection.html" class="flex-both-center">
+                            <div class="productbox">
+                                <div class="productimg">
+                                    <img src="images/tshirt.png" alt="Ethnic wear men">
+                                </div>
+                                <div class="aboutproduct">
+                                    <p class="productname">Ethnic wear mens</p>
+                                    <p><b>50-80% Off</b></p>
+                                </div>
+                            </div>
+                        </a>
+                    <div id="cs-btn-right" class="flex-both-center">
+                        <i class='bx bxs-chevron-right'></i>
+                    </div>
+                    <div id="cs-btn-left" class="flex-both-center">
+                        <i class='bx bxs-chevron-left' ></i>
+                    </div>
                 </div>
             </div>
-            <div class="second-bannerCollection">
-                <div id="banner3" class="banners">
-                    <img src="images/banner3.png" alt="banner3">
-                    <button id="banner3-btn" class="banners-btn"><p>SHOP NOW</p></button>
+
+            <!-- sale banner -->
+            <div class="sale-banner">
+                <img src="images/sale-banner4.png" alt="sale banner">
+            </div>
+
+            <!-- new arrival -->
+            <div id="new-arrival" class="flex-both-center">
+                <div class="div-name">
+                    <h1 class="color1">NEW ARRIVAL</h1>
+                    <h5 class="color2">Special Collection New Morden Design<h5>
                 </div>
-                <div id="banner4" class="banners">
-                    <img src="images/banner4.png" alt="banner4">
-                    <button id="banner4-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                <div class="products flex-space-evenly">
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="productsCollection.html" class="flex-both-center">
+                        <div class="productbox">
+                            <div class="productimg">
+                                <img src="images/tshirt.png" alt="Ethnic wear men">
+                            </div>
+                            <div class="aboutproduct">
+                                <p class="productname">Ethnic wear mens</p>
+                                <p><b>50-80% Off</b></p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div id="banner5" class="banners">
-                    <img src="images/banner5.png" alt="banner5">
-                    <button id="banner5-btn" class="banners-btn"><p>SHOP NOW</p></button>
+            </div>
+
+            
+            <div class="HO-bannersCollection">
+                <div class="first-bannerCollection">
+                    <div id="banner1" class="banners">
+                        <img src="images/banner1.png" alt="banner1">
+                        <button id="banner1-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                    </div>
+                    <div id="banner2" class="banners">
+                        <img src="images/banner2.png" alt="banner2">
+                        <button id="banner2-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                    </div>
+                </div>
+                <div class="second-bannerCollection">
+                    <div id="banner3" class="banners">
+                        <img src="images/banner3.png" alt="banner3">
+                        <button id="banner3-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                    </div>
+                    <div id="banner4" class="banners">
+                        <img src="images/banner4.png" alt="banner4">
+                        <button id="banner4-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                    </div>
+                    <div id="banner5" class="banners">
+                        <img src="images/banner5.png" alt="banner5">
+                        <button id="banner5-btn" class="banners-btn"><p>SHOP NOW</p></button>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <div class="copyright flex-both-centre">
+        <div class="copyright flex-both-center">
             <h5>gedashiv9977@gmail.com</h5>
         </div>
-        <div class="homepage-footer">
+        <div class="homepage-footer flex-both-center">
             <div class="box1">
-                <div class="footerBoxes connetbox">
-                    <div class="icons">
-                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <div class="footerBoxes">   
+                    <h4>Get in touch</h4>
+                    <div class="icons flex-space-evenly">
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></i></a>
                         <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
                         <a href="#"><i class='bx bxl-telegram' ></i></a>
                         <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
                     </div>
                 </div>
             </div>
-            <div class="box2">
+            <div class="box2 flex-space-evenly">
                 <div class="footerBoxes">
                     <h4>ABOUT</h4>
                     <a href="#"><p>Life at company</p></a>
