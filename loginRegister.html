@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Ecommerse Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="login-container" class="flex-both-center">
+        <div id="login-container2" class="flex-both-center">
+            <div id="login-img"><img src="images/login-img.png" alt="logo"></div>
+            <div id="forms" class="flex-both-center">
+                <div id="login-register" class="flex-space-between">
+                    <h1 id="text-login">LOGIN</h1>
+                    <h1 id="text-register">REGISTER</h1>
+                </div>
+                <form action="" id="login-form">
+                    <div id="new-register" class="flex-both-center red">
+                        <p><b>Don't have an account? <span onclick="register()" style="cursor: pointer;">Register First</span></b></p>
+                    </div>
+                    <div class="username-password flex-both-center">
+                        <input type="text" placeholder="Username" required>
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="username-password flex-both-center">
+                        <input type="password" placeholder="Password" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <div id="remember-forgot" class="flex-space-between">
+                        <label>
+                            <input type="checkbox">Remember me
+                        </label>
+                        <a href="#" class="text-deco-none">Forgot Password?</a>
+                    </div>
+                    <!-- <button type="submit" class="btn">Login</button> -->
+                    <div class="btn">
+                        <a href="index.html">Login</a>
+                    </div>
+                </form>
+                <form action="" id="register-form">
+                    <div id="info">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Username" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" required>
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div id="confirmation-btn">
+                        <label for="register_checkbox"><input type="checkbox" id="register_checkbox" required> I hereby
+                            declare that the above information provided is true and correct</label>
+                        <div id="submit_btn">
+                            <button type="submit" class="btn">Register</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
