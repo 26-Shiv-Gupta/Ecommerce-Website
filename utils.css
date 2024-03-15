@@ -31,6 +31,21 @@
     text-decoration: none;
     color: black;
 }
+.text-left{
+    text-align: left;
+}
+.color1{
+    color: #016772;
+}
+.color2{
+    color: #3CA6A6;
+}
+.color3{
+    color: #F2E3D5;
+}
+.bg-color3{
+    background-color: #F2E3D5;
+}
 .red{
     color: #FC5D6D;
 }
