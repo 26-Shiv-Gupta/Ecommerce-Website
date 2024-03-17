@@ -111,22 +111,12 @@ if(PC_box2 && wishlistbtn && wishlist_container && wishlist_drag_container && ba
         })
     })
     Array.from(PC_box2).forEach((ele)=>{
-        ele.addEventListener('touchstart', ()=>{
-            wishlist_drag_container.style.display = 'flex';
-            bag_drag_container.style.display = 'flex';
-            wish_div = ele;
-        })
-    })
-    Array.from(PC_box2).forEach((ele)=>{
         ele.addEventListener('dragend', ()=>{
             wishlist_drag_container.style.display = 'none';
             bag_drag_container.style.display = 'none';
         })
     })
     wishlist_drag_container.addEventListener('dragover', (ele)=> {
-        ele.preventDefault();
-    });
-    wishlist_drag_container.addEventListener('touchmove', (ele)=> {
         ele.preventDefault();
     });
     wishlist_drag_container.addEventListener('drop', ()=> {
